@@ -4,8 +4,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 iron:router
 spiderable
 meteorhacks:npm
@@ -15,4 +13,8 @@ sacha:spin
 email
 accounts-password
 accounts-ui
+
+
+npm-container
+less
 
