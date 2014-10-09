@@ -1,0 +1,18 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+autopublish
+insecure
+iron:router
+spiderable
+meteorhacks:npm
+zimme:iron-router-active
+manuelschoebel:ms-seo
+sacha:spin
+email
+accounts-password
+accounts-ui
+
