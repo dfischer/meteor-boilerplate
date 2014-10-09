@@ -1,7 +1,7 @@
 meteor-boilerplate
 ==================
 
-A meteor project structure + obvious packages for bootstrapping new meteor projects.
+A meteor best practices project structure + obvious packages for bootstrapping new meteor projects.
 
 ```
 client/
@@ -26,7 +26,17 @@ server/
   fixtures.js
 ```
 
+Explanation
+-----------
+This project structure gives you a nice amount of modularity. It's a change from the traditional MVC pattern (if you come from Rails especially). At first glance it may be weird to have `.js .html .scss` files together but in reality it makes a lot of sense. You don't have to do much context switching and each namespace is basically a self-contained module, which allows for easy abstraction into a package as needed.
+
+Otherwise everything else should be pretty obvious. You have your publications, fixtures, and routing best practices.
+
+Enjoy!
+
 Packages
+========
+
 * iron-router
 * spiderable
 * meteorhacks:npm
